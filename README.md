@@ -1,13 +1,17 @@
-## MLP To-DO
+## MLP To-DO - Instructions
 
-**1. Build front-end**
+You must demonstrate the following abilities/skills: make models, controllers, migrations, HTML, CSS, blade, Git commits, blade templates, etc. 
+
+**1. Fork this repo**
+
+**2. Build front-end**
 
    Layout must be as follow:
    
    ![Alt text](assets/site-layout.png?raw=true "Title")
    Please note that the above image and logo are in the 'assets' folder.
 
-**2. Build To-Do list functionality** 
+**3. Build To-Do list functionality** 
 
      A user should be able to
      * Create a task.
