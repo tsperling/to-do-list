@@ -6,7 +6,7 @@ You must demonstrate the following abilities/skills: make models, controllers, m
 
 **2. Build front-end**
 
-   Layout must be as follow:
+   Layout must be as follows:
    
    ![Alt text](assets/site-layout.png?raw=true "Title")
    Please note that the above image and logo are in the 'assets' folder.
