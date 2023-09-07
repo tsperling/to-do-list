@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\TaskController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +18,11 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+/**
+ * Task related routes below here
+ */
+Route::get('/get-tasks', [TaskController::class, 'getTasks']);
+Route::post('/create-task', [TaskController::class, 'createTask']);
+Route::post('/complete-task', [TaskController::class, 'completeTask']);
+Route::post('/delete-task', [TaskController::class, 'deleteTask']);
